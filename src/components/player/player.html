@@ -1,0 +1,13 @@
+<div class="page player-page">
+	<div class="row">
+		<div class="col-sm-12">
+			<h1>Say hello to {{$resolve.player.name}}</h1>
+			<div class="player-info">
+				<div>Height: {{$resolve.player.height}} feet</div>
+				<div>
+					<img ng-src="{{player.getPlayerImage(player.$resolve.player.id)}}" alt="{{player.$resolve.player.name}}">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
