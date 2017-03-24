@@ -1,0 +1,23 @@
+[
+	{
+		"id": 1,
+		"name": "Blake Griffin",
+		"height": 6.3
+	}, {
+		"id": 2,
+		"name": "Chris Paul",
+		"height": 5.7
+	}, {
+		"id": 3,
+		"name": "DeAndre Jordan",
+		"height": 7
+	}, {
+		"id": 4,
+		"name": "Jamal Crawford",
+		"height": 6.2
+	}, {
+		"id": 5,
+		"name": "JJ Redick",
+		"height": 6.1
+	}
+]
