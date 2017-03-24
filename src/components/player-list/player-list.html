@@ -1,0 +1,13 @@
+<div class="row">
+	<div class="col-sm 12">
+		<h1>Players: {{playerList.players.length}}</h1>
+		<input type="text" class="form-control input-lg" ng-model="playerList.query"/>
+	</div>
+	<div class="col-sm-4" ng-repeat="player in playerList.players | filter:playerList.query">
+		<h3><a ui-sref="player({ playerId: player.id})">{{player.name}}</a></h3>
+		<div>{{player.height}} feet</div>
+		<div>
+			<img ng-src="{{playerList.getPlayerImage(player.id)}}" alt="{{player.name}}"/>
+		</div>
+	</div>
+</div>
